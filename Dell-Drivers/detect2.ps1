@@ -17,7 +17,7 @@
 $DCU_folder = "C:\Program Files (x86)\Dell\CommandUpdate"
 $DCU_report = "C:\Temp\Dell_report"
 $DCU_exe = "$DCU_folder\dcu-cli.exe"
-$DCU_category = "firmware,driver"  # bios,firmware,driver,application,others
+$DCU_category = "driver"  # bios,firmware,driver,application,others
 
 Try {
     if([System.IO.File]::Exists($DCU_exe)){

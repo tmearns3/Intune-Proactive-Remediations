@@ -15,9 +15,9 @@ $dcuLocation64 = "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe"
 $dcuLocation32 = "C:\Program Files\Dell\CommandUpdate\dcu-cli.exe"
 
 		# Find dcu-cli.exe programfile location
-		if (test-path -path $dcuLocation32 -pathtype leaf){$dcu_Dir = $dcuLocation32}else{$dcu_Dir = $dcuLocation64}	
+		if (test-path -path $dcuLocation32 -pathtype leaf){$DCU_Dir = $dcuLocation32}else{$DCU_Dir = $dcuLocation64}	
 
-$DCU_Dir = "C:\Program Files\Dell\CommandUpdate"
+# $DCU_Dir = "C:\Program Files\Dell\CommandUpdate"
 $DCU_report = "C:\Temp\Dell_report\update.log"
 $DCU_exe = "$DCU_Dir\dcu-cli.exe"
 $DCU_category = "firmware,driver,application"  # bios,firmware,driver,application,others

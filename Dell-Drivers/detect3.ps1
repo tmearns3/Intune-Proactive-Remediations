@@ -6,7 +6,7 @@
     Please make sure that Dell Command update is installed on the machines
     
 .NOTES
-    Filename: detect.ps1
+    Filename: detect3.ps1
     1.0   -   Script created
 
 #>

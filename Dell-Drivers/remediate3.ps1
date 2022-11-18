@@ -6,7 +6,7 @@
     Please make sure that Dell Command update is installed on the machines
     
 .NOTES
-    Filename: remediate2.ps1
+    Filename: remediate3.ps1
     1.0   -   Script created
 
 #>

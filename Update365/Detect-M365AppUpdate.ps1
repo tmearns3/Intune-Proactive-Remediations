@@ -3,12 +3,12 @@
 # See Microsoft 365 Apps Version history https://learn.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date#version-history
 
 $targetVersions = @{
-    'CurrentChannel'                        = [System.Version]::Parse('16.0.16130.20306')
-    'MonthlyEnterpriseChannel1'             = [System.Version]::Parse('16.0.16026.20238')
-    'MonthlyEnterpriseChannel2'             = [System.Version]::Parse('16.0.15928.20298')
-    'Semi-AnnualEnterpriseChannel(Preview)' = [System.Version]::Parse('16.0.16130.20306')
-    'Semi-AnnualEnterpriseChannel1'         = [System.Version]::Parse('16.0.15601.20578')
-    'Semi-AnnualEnterpriseChannel2'         = [System.Version]::Parse('16.0.14931.20944')
+    'CurrentChannel'                        = [System.Version]::Parse('16.0.16227.20280')
+    'MonthlyEnterpriseChannel1'             = [System.Version]::Parse('16.0.16130.20394')
+    'MonthlyEnterpriseChannel2'             = [System.Version]::Parse('16.0.16026.20274')
+    'Semi-AnnualEnterpriseChannel(Preview)' = [System.Version]::Parse('16.0.16130.20394')
+    'Semi-AnnualEnterpriseChannel1'         = [System.Version]::Parse('16.0.15601.20626')
+    'Semi-AnnualEnterpriseChannel2'         = [System.Version]::Parse('16.0.14931.20964')
 }
 
 $configuration = Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Office\ClickToRun\Configuration' 
